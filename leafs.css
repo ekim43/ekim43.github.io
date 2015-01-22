@@ -1,0 +1,53 @@
+body {
+  font-family: 'Raleway', 'helvetica neue', arial, sans-serif;
+  font-weight: 300;
+  background: url(images/background.jpg) no-repeat transparent;
+  background-size: cover;
+}
+
+
+
+/* Make the h1 tags blue*/
+
+h1 {
+	color: blue;
+}
+
+#wrapper {
+  width: 960px;
+  margin: 20px auto;
+}
+
+#santorelli {
+	float: right;
+}
+
+#richards {
+	float: right;
+}
+
+
+/*Identifying specific ID with #*/
+
+#header {
+	overflow: hidden;
+}
+
+
+#summary {
+	clear: both;
+	border: 2px dotted black;
+	background-color: lightgrey;
+	padding: 15px;
+	margin-top: 15px;
+}
+
+
+}
+.purple {
+	color: purple;
+}
+
+p, li { 
+  line-height: 24px;
+}

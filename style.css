@@ -1,9 +1,22 @@
 body {
-  font-family: 'helvetica neue', arial, sans-serif;
+  font-family: 'Raleway', 'helvetica neue', arial, sans-serif;
   font-weight: 300;
-  background: url(background.jpg) repeat;
+  background: url(images/background.jpg) repeat;
 }
+
 #wrapper {
   width: 960px;
   margin: 20px auto;
+}
+
+#bio {
+	clear: both;
+	border: 2px solid black;
+	background-color: lightblue;
+	padding: 5px;
+	margin-top: 15px;
+}
+
+h1 {
+	font-family: 'Pinyon Script';
 }
