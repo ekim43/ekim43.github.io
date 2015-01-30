@@ -1,7 +1,6 @@
 body {
   font-family: 'Raleway', 'helvetica neue', arial, sans-serif;
   font-weight: 300;
-  background: url(images/background.jpg) repeat;
 }
 
 #wrapper {
@@ -13,10 +12,59 @@ body {
 	clear: both;
 	border: 2px solid black;
 	background-color: lightblue;
-	padding: 5px;
-	margin-top: 15px;
+	padding: 20px;
+	margin-top: 25px;
+	text-align: center;
+	font-family: 'Pinyon Script';
+	font-size: 25px;
+	font-weight: bold;
 }
 
 h1 {
-	font-family: 'Pinyon Script';
+	font-family: 'Simonetta';
+	font-size: 50px;
+	font-weight: bold;
+	color: blue;
+}
+
+/* Make the h1 tags blue*/
+
+h3 {
+	font-weight: bold;
+}
+
+#wrapper {
+  width: 960px;
+  margin: 20px auto;
+}
+
+#santorelli {
+	float: right;
+}
+
+#richards {
+	float: right;
+}
+
+
+/*Identifying specific ID with #*/
+
+#header {
+	overflow: hidden;
+}
+
+
+}
+.purple {
+	color: purple;
+}
+
+p, li { 
+  line-height: 24px;
+}
+
+.jumbotron {
+  background: url(images/skyline.jpg);
+  background-size: cover;
+  color: white;
 }

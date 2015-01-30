@@ -9,57 +9,163 @@
 <head>
   <title>Fan Page</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="leafs.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Pinyon+Script' rel='stylesheet' type='text/css'>
+ <link href='http://fonts.googleapis.com/css?family=Simonetta' rel='stylesheet' type='text/css'>
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
 
+<div class="container">
+ <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="marketing.html">Hire</a></li>
+        <li class="active"><a href="leafs.html">Fan Page<span class="sr-only">(current)</span></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Explore <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</div>
 <!-- Body -->
 <body>
 
-<div id="wrapper">
-
-<a href="index.html">Go Back to Home Page</a>
+ <div class="container">
 
 <p>
   <img src="images/leafsbanner.jpg" width="100%">
 </p>
 
+
+
 <h1>
   Leaf's Fan Page
 </h1>
 
-<div>
-  <h4>Top Trade Candidates</h4>
+ <h3>Top Trade Candidates</h3>
 
-  <ul>
-    <li><img src="images/kessel.jpg" height="100px" width="100px"> <a href="http://www.nhl.com/ice/player.htm?id=8473548">Phil Kessel</a>: As the Leaf's most skilled offensive player, Phil would be a highly sought after target if the Leafs decide to blow up the team at the end of the season.</li>
-    <li><img src="images/lupul.jpg" height="100px" width="100px"> <a href="http://www.nhl.com/ice/player.htm?id=8470207">Joffrey Lupul</a>: Although the oft injured player has not had a great year, Joffrey's skill level would warrant interest from a number of playoff teams.</li>
-    <li><img src="images/phaneuf.jpg" height="100px" width="100px"> <a href="http://www.nhl.com/ice/player.htm?id=8470602">Dion Phaneuf</a>: While the captain of the Leafs has a contract that will scare most NHL teams away, a handful of teams will likely be willing to take on Dion's massive contract if the Leafs are willing to eat some of the contract.</li>
-  </ul>
+   <div class="row">
+    <div class="col-sm-2">
+      <img src="images/kessel.jpg" height="150px" width="150px">
+      <br>
+      <a href="http://www.nhl.com/ice/player.htm?id=8473548">Stats</a>
+    </div>
+    <div class="col-sm-10">
+      <h4>Phil Kessel</h4> 
+      <h5> As the Leaf's most skilled offensive player, Phil would be a highly sought after target if the Leafs decide to blow up the team at the end of the season.</h5>
+    </div>
+   </div>
+   <br>
+  <div class="row">
+    <div class="col-sm-2">
+      <img src="images/lupul.jpg" height="150px" width="150px">
+      <br>
+      <a href="http://www.nhl.com/ice/player.htm?id=8470207">Stats</a>
+    </div>
+    <div class="col-sm-10">
+      <h4>Joffrey Lupul</h4>
+      <h5> Although the oft injured player has not had a great year, Joffrey's skill level would warrant interest from a number of playoff teams.</h5>
+    </div>
+  </div>
+<br>
+<div class="row">
+    <div class="col-sm-2">
+      <img src="images/phaneuf.jpg" height="150px" width="150px">
+      <br>
+      <a href="http://www.nhl.com/ice/player.htm?id=8470602">Stats</a>
+    </div>
+    <div class="col-sm-10">
+      <h4>Dion Phaneuf</h4>
+      <h5> While the captain of the Leafs has a contract that will scare most NHL teams away, a handful of teams will likely be willing to take on Dion's massive contract if the Leafs are willing to eat some of the contract.</h5>
+    </div>
+  </div>
+
+
+
+  <h3>Recent Rumors</h3>
+
+
+<div class="row">
+    <div class="col-sm-8">
+        <h4>New York Rangers, Toronto Maple Leafs Talking Mike Santorelli Trade? </h4>
+        <p>TSN Insider Darren Dreger, appearing on Tuesday night's episode of Insider Trading, revealed that the Rangers are seeking a centerman and could have eyes for Toronto Maple Leafs forward Mike Santorelli. "They're (Rangers) looking for a centerman and there might be a Leaf connection here. Keep in mind they tried to sign Mike Santorelli as an unrestricted free agent," said Dreger, per NicholsOnHockey.com. "All they had was $1 million, so the Leafs got him at $1.5 million. If things continue to go poorly for Toronto, maybe Santorelli becomes a deadline deal."</p>
+    </div>
+    <div class="col-sm-4 text-right">
+          <img src="images/santorelli.jpg" width="300px">
+    </div>
 </div>
+<br>
+<br>
+<div class="row">
+    <div class="col-sm-8">
+        <h4>Blockbuster Trade Imminent? </h4>
+        <p>A recent report by www.hockeybuzz.com is an intriguing one. According to the hockey website, the Leafs are involved in serious discussions with the L.A. Kings and Colorado Avalanche. The one Kings player being mentioned most is Mike Richards, but would he help the Leafs? On the one hand, Toronto would love to have more depth and experience at the centre position.</p>
+    </div>
+    <div class="col-sm-4 text-right">
+        <img src="images/richards.jpg" width="250px">
+    </div>
+</div>
+  
 
-  <h4 id="reviews">Recent Rumors</h4>
 
-<div id="santorelli">
-  <img src="images/santorelli.jpg" width="300px">
-</div>  
+<br>
+<br>
 
-  <h5>New York Rangers, Toronto Maple Leafs Talking Mike Santorelli Trade? </h5>
-  <p>TSN Insider Darren Dreger, appearing on Tuesday night's episode of Insider Trading, revealed that the Rangers are seeking a centerman and could have eyes for Toronto Maple Leafs forward Mike Santorelli. "They're (Rangers) looking for a centerman and there might be a Leaf connection here. Keep in mind they tried to sign Mike Santorelli as an unrestricted free agent," said Dreger, per NicholsOnHockey.com. "All they had was $1 million, so the Leafs got him at $1.5 million. If things continue to go poorly for Toronto, maybe Santorelli becomes a deadline deal."</p>
 
-<div id="richards">
-  <img src="images/richards.jpg" width="250px">
-</div>  
 
-  <h5>Blockbuster Trade Imminent? </h5>
-  <p>A recent report by www.hockeybuzz.com is an intriguing one. According to the hockey website, the Leafs are involved in serious discussions with the L.A. Kings and Colorado Avalanche. The one Kings player being mentioned most is Mike Richards, but would he help the Leafs? On the one hand, Toronto would love to have more depth and experience at the centre position.</p>
 
-  <h4>Franchise Stats</h4>
 
-  <table>
+  <h3>Franchise Stats</h3>
+
+  <table class="table table-striped">
     <tr>
       <td>Number of Stanley Cups:</td>
       <td>13</td>
@@ -86,7 +192,7 @@
     </tr>
   </table>
 
-</div> 
+</div>
 </body>
 
 </html>
