@@ -4,7 +4,7 @@
 <html>
 
 <head>
-  <title>Kellogg Development Group</title>
+  <title>Restaurant Incubators</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -34,8 +34,8 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="company.html">Company <span class="sr-only">(current)</span></a></li>
-        <li><a href="team.html">Team</a></li>
+        <li><a href="company.html">Company</a></li>
+        <li class="active"><a href="team.html">Team<span class="sr-only">(current)</span></a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Explore <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
@@ -64,48 +64,45 @@
   </div><!-- /.container-fluid -->
 </nav>
 </div>
+<!-- Body -->
+<body>
 
-  <div class="jumbotron">
+<div class="jumbotron">
     <div class="container">
-        <h1>Kellogg Development Group</h1>
-        <h2>Seeking to redefine the Chicago restaurant scene</h2>
+        <h1>Contact Us</h1>
     </div>
-  </div> 
+</div> 
+
+<br>
 
  <div class="container">
-   
+
 <div id="tagline">
-  <p>Kellogg Development Group is a recently formed real estate development company focused on creating a restaurant incubator in Chicago.</p> 
-</div>   
+<p>Do you know of a potential property for us to acquire? Are you a restauranteur and want to learn more about our company? Send us an email!</p>
+</div> 
 
 <br>
 <br>
 
-  <div class="row">
- <div class="col-sm-8">
-      <h3>Restaurant Incubator:</h3>
-      <h4>noun</h4>
-      <p>a business support system that accelerates the successful development of start-up restaurants by providing restauranteurs with an array of targeted resources and services.</p>
-      <h3><a href="examples.html" class="btn btn-primary">See examples</a></h3>
-</div>
-  <div class="col-sm-4 text-right">
-      <br>
-      <img src="images/restaurant.jpg" width="400px">
-  </div>
+<form action="mailto:ekim2015@kellogg.northwestern.edu" method="get">
+<div class="form-group">
+  <label for="subject">Subject:</label>
+      <input type="text" class="form-control"  id="subject" name="subject">
 </div>
 
+<div class="form-group">
+  <label for="body">Body:</label>
+      <input type="text" class="form-control" id="body" name="body">
+</div>
+
+    <button type="submit">Submit</button>
+</form>
 
 
-<br>
-
-  </div>
+</div>
 </body>
+
 </html>
-
-
-
-
-
 
 
 
